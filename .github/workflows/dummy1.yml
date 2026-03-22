@@ -1,3 +1,8 @@
 name: Dummy1
+
 on: workflow_dispatch
-jobs: {}
+
+jobs:
+  noop:
+    runs-on: ubuntu-latest
+    steps: []
