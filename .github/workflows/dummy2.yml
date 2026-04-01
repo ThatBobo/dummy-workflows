@@ -1,0 +1,9 @@
+name: Dummy2
+
+on: workflow_dispatch
+
+jobs:
+  start:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Dummy 2 initialezed"
